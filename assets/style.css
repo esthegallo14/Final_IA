@@ -1,0 +1,93 @@
+.css-j5r0tf {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #7E99AB;
+}
+
+.diagnosis {
+  color: #fff;
+  padding: 0.2em 0.5em;
+  border-radius: 0.5em;
+}
+
+.diagnosis.benign {
+  background-color: #01DB4B
+}
+
+.diagnosis.malicious {
+  background-color: #790202
+}
+/* Mejoras generales para el cuerpo de la página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Personalización de la barra lateral */
+.sidebar .sidebar-content {
+  background-color: #f8f9fa;
+}
+
+/* Estilos para títulos y subtítulos */
+h1, h2, h3, h4, h5, h6 {
+  color: #979696;
+}
+
+/* Estilos para los botones, incluyendo el hover */
+button {
+  background-color: #4c82af; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+button:hover {
+  background-color: #458ea0;
+}
+
+/* Estilos para inputs y sliders */
+.stTextInput>div>div>input, .stSlider>div>div>div>input {
+  border-radius: 20px;
+}
+
+/* Mejoras para las tarjetas de diagnóstico */
+.diagnosis {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  border-radius: 0.5em;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.diagnosis:hover {
+  transform: translateY(-5px);
+}
+
+/* Mejoras para los contenedores y columnas */
+.stContainer, .stColumn {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(12, 101, 217, 0.1);
+}
+
+/* Personalización de enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
